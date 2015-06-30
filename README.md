@@ -14,3 +14,9 @@ rsync -avz --delete --ignore-errors user@a-server:/pathA/ /pathB/
 # 從本機備份到 A server
 rsync -avz --delete --ignore-errors /pathB user@a-server:/pathA
 ```
+
+## 查用什麼程式占用了什麼 port
+
+```
+sudo lsof -i -n -P | grep TCP
+```
