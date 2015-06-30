@@ -21,7 +21,7 @@ rsync -avz --delete --ignore-errors /pathB user@a-server:/pathA
 sudo lsof -i -n -P | grep TCP
 ```
 
-## Service auto-start
+## 讓 service 自動啟動
 
 ```
 # To start a daemon at startup
@@ -32,3 +32,8 @@ update-rc.d service_name defaults
 update-rc.d serivce_name remove
 
 ```
+
+
+## 教學連結
+
+- [How to Install the Ajenti Control Panel and Ajenti V on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-install-the-ajenti-control-panel-and-ajenti-v-on-ubuntu-14-04)
