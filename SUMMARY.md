@@ -1,5 +1,4 @@
 # Summary
 
 * Hello World
-* README
 
